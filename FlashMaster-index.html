@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #ffffff; /* Tech black color */
+        color: #5c363636; /* Text color, assuming white on black for readability */
+
+        .home-words{
+            font-family: 'Poppins', sans-serif;
+            font-size: 35px;
+            color:rgba(90, 83, 83, 0.692)
+        }
+        .hero-words{
+          font-family: 'Poppins', sans-serif;
+            font-size: 10px; 
+        }
+        .hero-headings{
+          font-family: 'Poppins', sans-serif;
+          letter-spacing: 2.5px;
+          margin-top: 0;
+        }
+        .btn-words{
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            color:rgb(65, 56, 56)
+            
+        }
+        .sign-up{
+          background-color: rgba(37, 231, 37, 0.904);
+        }
+        .reveal-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    transform: translateY(50px);
+}
+
+.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+    }
+    .logo-para{
+      font-size: 40px;
+      font-family: 'Poppins', sans-serif;
+      color: rgba(0, 0, 0, 0.781);
+      margin-bottom: 20px;
+    }
+    .logo-container {
+            text-align: center;
+        }
+    .title{
+      font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body>
+    <section id="home">
+        <section id="header">
+            <div class="container">
+              
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                  </a>
+          
+                  <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a  class="nav-link  px-3  home-words " style="color:  rgba(37, 231, 37, 0.904);">FlashMaster</a></li>
+                    <li><a href="#"  class="nav-link px-2  home-words" >Home</a></li>
+                    <li><a href="#" class="nav-link  px-2  home-words">Flashcard</a></li>
+                    <li><a href="#" class="nav-link px-2 home-words">Game</a></li>
+                    <li><a href="#" class="nav-link px-2  home-words">Contact</a></li>
+                    <li><a href="#" class="nav-link px-2 home-words">About</a></li>
+                  </ul>
+          
+                 
+          
+                  <div class="text-end">
+                    <button type="button" class="btn btn-outline-dark me-2 btn-words px-4">Login</button>
+                  <button type="button" class="btn btn-words sign-up px-4">Sign-up</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="body">
+          <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./Capture-removebg-preview.png" class="d-block mx-lg-auto img-fluid reveal-image" alt="Bootstrap Themes" width="500" height="110" loading="lazy">
+            </div>
+            
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-0 hero-headings px-2 " style="color: rgba(37, 231, 37, 0.904);">The Best way to Learn and Memorize
+              </h1>
+                <p class="lead home-words" style="color: rgba(0, 0, 0, 0.781);"> Discover the Power</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn  btn-lg px-5  w-100 btn-words" style="background-color: rgba(37, 231, 37, 0.904);">Try Now</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-5 w-100 btn-words">Explore</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="logo part">
+          <div class="text-center">
+          <p class="logo-para justify-content-center">Trusted by Learners Around the World</p>
+          </div>
+          <div class="container logo-container justify-content-center">
+            <div class="row">
+              <div class="col-lg-3 col-sm-12">
+                <img src="./techcrunch.png" alt="techcrunch" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="./mashable.png" alt="mashable" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="./bizinsider.png" alt="bizinsider" height="30">
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <img src="./tnw.png" alt="tnw" height="30">
+              </div>
+            </div>
+          </div>
+        <section id="1-part">
+          <div class="container my-5 ">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+              <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis title" style="color: rgba(0, 0, 0, 0.781); ">Introducing</h1>
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-2 title " style="color: rgba(0, 0, 0, 0.781);">FlashMaster</h1>
+                <p class="lead title" style="color: rgba(0, 0, 0, 0.781);">Join our Community <br> And Boost Your Learning Experience</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                  <button type="button" class="btn  btn-lg px-4 me-md-2 fw-bold btn-words sign-up">Try Now</button>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <img class=" d-block mx-lg-auto img-fluid" src="https://images.prismic.io/quizlet-web/1690916162480_08ESQplus-webb.gif?auto=format,compress" alt="" width="720">
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
+        
+    </section>
+    <section>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <!-- Align the image and text to the right on larger screens (lg and above) -->
+            <div class="container mt-4">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <img src="https://images.prismic.io/quizlet-web/1691009868783_10Teachers.png?auto=format,compress" class="d-block mx-lg-auto img-fluid mb-4" alt="" width="700" height="500" loading="lazy">
+                  </div>
+                  <div class="col-lg-6">
+                      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 title" style="color: rgba(0, 0, 0, 0.781);">Your Progress is Saved Automatically</h1>
+                      <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);color:  rgba(0, 0, 0, 0.781);">We value the security of your data. FlashMaster employs state-of-the-art encryption protocols to ensure the safety and privacy of your flashcards. Your learning materials are securely stored in the cloud.</p>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                          <button type="button" class="btn  btn-lg px-4 btn-words sign-up">Start</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <section>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://img.quizlet.com/4yqRk-o.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 title " style="color: rgba(0, 0, 0, 0.781);">Learn And Save <br> with FlashMaster</h1>
+            <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);">FlashMaster is a powerful tool that helps you learn and memorize information effectively. By optimizing your study techniques and providing valuable insights, FlashMaster enables you to save time and effort while acheiving better learning outcomes.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn  btn-lg px-4 me-md-2 btn-words sign-up">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row g-5 py-5">
+            <!-- First Column for Image -->
+            <div class="col-lg-6">
+                <img src="https://images.prismic.io/quizlet-web/ZGI5ZGUzZjctZDM2Zi00ZTUxLWI5NWYtNjE1YmZlZmI0ZjBh_efb72d08-8c80-4eb0-a56a-85878eacefe2_screenshot2020-04-21at3.29.41pm.png?auto=compress,format&rect=0,0,998,686&w=998&h=686" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+    
+            <!-- Second Column for Text and Button Elements -->
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 title" style="color:  rgba(0, 0, 0, 0.781);">How To Get <br> Started <br> <br>Learn, Play, Succeed in Jusy 3 Simple Steps</h1>
+                <p class="lead title mb-4" style="color: rgba(0, 0, 0, 0.781);">Step 1 <br> <br> Connect with our Expects <br> For Personalized Assistance <hr></p>
+                <p class="lead title mb-4" style="color: rgba(0, 0, 0, 0.781);">Step 2 <br> <br> Recieve A Tailored Flashcard Set <br> Based On Your Needs <hr></p>
+                <p class="lead title mb-4" style="color: rgba(0, 0, 0, 0.781);">Step 3 <br> <br>Master your knowledge with interactive<br>flashcards<hr></p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn  btn-lg px-4 me-md-2 btn-words sign-up">Start learning now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+      <div class="container mx-auto">
+        <div class="row mb-4 justify-content-end">
+          <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis title mb-4" style="color: rgba(0, 0, 0, 0.781);">User Reviews</h1>
+                    <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);"> Hear what are users have to say!</p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="col-lg-4 offset-lg-4 mx-auto justify-content-center col-12 text-center">
+                <svg class=" rounded-circle mb-4" width="140" height="140" src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%"></rect></svg>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);"> FlashMaster has revolutionized <br> my learning experience!</p>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);">Emily Johnson</p>
+                <p class="text-center title" style="color:  rgba(0, 0, 0, 0.781);">Student, FlashMaster</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 offset-lg-4 mx-auto justify-content-center justify-content-end col-12 text-center">
+                <img class=" rounded-circle mb-4" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);">I highly recommend <br>FlashMaster for anyone looking <br> to improve their memory.</p>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);">John Anderson</p>
+                <p class="text-center title"style="color:  rgba(0, 0, 0, 0.781);">Teacher, FlashMaster</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 offset-lg-4 mx-auto col-12 text-center justify-content-center col-12">
+                <svg class=" rounded-circle mb-4" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);"> FlashMaster has become an <br> essential tool in my studying <br> routine.</p>
+                <p class="lead title mb-4" style="color:  rgba(0, 0, 0, 0.781);">Sarah Thompson</p>
+                <p class="text-center title"style="color:  rgba(0, 0, 0, 0.781);">Medical student, FlashMaster</p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+    </section>
+
+
+    <section>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://epe.brightspotcdn.com/ea/cc/d11901e24dc3a0cc2ed2bed7bb8c/37-rouse.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4 title" style="word-spacing: 10px;">Start your Learning <br> journey with FlashMaster</h1>
+            <p class="lead title mb-4" style="color: rgba(0, 0, 0, 0.781);">Unlock your full potential with interactive flashcards</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn  btn-lg px-4 me-md-2 btn-words sign-up">Get Started Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+
+    <div class="row container col-12 mx-auto justify-content-end mb-5">
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="title" style="color: rgba(0, 0, 0, 0.781);">FlashMaster</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="title" style="color: rgba(0, 0, 0, 0.781);">Profile</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Flashcard</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Twitter</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Linkedin</a></li>
+          <li class="nav-item mb-2 title"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 class="title" style="color: rgba(0, 0, 0, 0.781);">Privacy Policy</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5 class="title"style="color: rgba(0, 0, 0, 0.781);">Subscribe to our newsletter</h5>
+          <p class="title"style="color: rgba(0, 0, 0, 0.781);">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-words sign-up" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section>
+
+    </section>
+</body>
+<script>
+  window.addEventListener('scroll', function() {
+      var revealImage = document.querySelector('.reveal-image');
+      var revealImagePosition = revealImage.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+
+      if (revealImagePosition < windowHeight / 1.5) {
+          revealImage.classList.add('revealed');
+      }
+  });
+</script>
+
+</html>
